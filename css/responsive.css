@@ -1,0 +1,99 @@
+@media screen and (max-width: 1440px) {
+  .info {
+    display: none;
+  }
+
+  .bg-hero {
+    background-size: cover;
+  }
+
+  .card-hero p {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .card-hero p {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cards-hero {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .nav a {
+    font-size: 20px;
+  }
+
+  .header .logo {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .container {
+    padding: 0 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  .hero {
+    align-items: center;
+  }
+
+  .hero h1,
+  .hero p {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .header {
+    height: 100px;
+  }
+
+  .bg-hero {
+    height: calc(100dvh - 100px);
+  }
+
+  .phone {
+    justify-content: center;
+  }
+
+  .cards-hero {
+    margin-top: 20px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero h1 {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .hero .phone .img-area {
+    height: 50px;
+    height: 50px;
+  }
+  .hero .phone .img-area img {
+    height: 30px;
+    height: 30px;
+  }
+
+  .hero .phone p {
+    font-size: 30px;
+  }
+
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

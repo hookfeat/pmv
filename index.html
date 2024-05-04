@@ -3,14 +3,126 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <meta name="description" content="PMV - Segurança do trabalho" />
+
+    <!-- Fonts Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+
+    <!-- Styles -->
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/responsive.css" />
+
+    <link
+      rel="shortcut icon"
+      href="/assets/icons/helmet.svg"
+      type="image/x-icon" />
+
     <title>PMV | Segurança do Trabalho</title>
   </head>
   <body>
-    <h1>PMV</h1>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container">
+        <a href="/">
+          <img
+            src="/assets/images/logo.png"
+            class="logo"
+            alt="Logo PMV - Segurança do Trabalho" />
+        </a>
+        <nav class="nav">
+          <ul>
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="#sobre">Sobre</a>
+            </li>
+            <li>
+              <a href="#serviços">Serviços</a>
+            </li>
+            <li>
+              <a href="#clientes">Clientes</a>
+            </li>
+            <li>
+              <a href="#contato">Contato</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <div class="bg-hero">
+      <main class="container hero">
+        <h1>Soluções Inteligentes</h1>
+        <p>
+          Explore o potencial da excelência em segurança e saúde no trabalho
+        </p>
+        <div class="phone">
+          <div class="img-area">
+            <img src="/assets/icons/phone.svg" alt="" />
+          </div>
+          <p>(88) 9.9603-0962</p>
+        </div>
+        <a href="#contato" class="button-cto-1 shadow">Fale Conosco</a>
+      </main>
+    </div>
+
+    <!-- CARD HERO -->
+    <div class="container cards-hero">
+      <div class="card-hero shadow">
+        <img src="/assets/icons/helmet.svg" alt="Ícone de capacete" />
+        <p>Segurança do <br />Trabalho</p>
+      </div>
+      <div class="card-hero shadow">
+        <img src="/assets/icons/warning.svg" alt="Ícone de aviso" />
+        <p>Gerenciamento <br />de risco</p>
+      </div>
+      <div class="card-hero shadow">
+        <img src="/assets/icons/file.svg" alt="Ícone de arquivo" />
+        <p>
+          Laudo <br />
+          Técnico
+        </p>
+      </div>
+      <div class="card-hero shadow">
+        <img
+          src="/assets/icons/project.png"
+          alt="Ícone de projeto arquitetônico" />
+        <p>
+          Projeto de<br />
+          incêndio
+        </p>
+      </div>
+    </div>
+
+    <!-- CLIENTS -->
+    <section class="clients">
+      <div class="container">
+        <h2>
+          Veja alguns clientes que <br />
+          confiam em <strong>nosso trabalho</strong>
+        </h2>
+        <div class="slide"></div>
+        <div class="results">
+          <div class="result shadow">
+            <div>+240</div>
+            <p>Projetos de incêndio</p>
+          </div>
+          <div class="result shadow">
+            <div>+2200</div>
+            <p>Laudos técnicos</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script src="scripts/index.js"></script>
   </body>
 </html>

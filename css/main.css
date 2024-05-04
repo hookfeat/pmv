@@ -1,0 +1,229 @@
+:root {
+  --primary-color: #00aa36;
+  --secondary-color: #f5f5f5;
+  --font-display: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--secondary-color);
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 80px;
+}
+
+.button-cto-1 {
+  background-color: white;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  padding: 20px 38px;
+  max-width: fit-content;
+  font-size: 28px;
+  font-weight: 900;
+  border-radius: 10px;
+  transition: all ease-in 0.3s;
+}
+
+.button-cto-1:hover {
+  transform: scale(1.05);
+}
+
+.shadow {
+  box-shadow: 4px 4px 10px #0000004c;
+}
+
+/* HEADER */
+
+.header {
+  height: 136px;
+  background-color: white;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: inherit;
+}
+
+.header .logo {
+  width: 250px;
+}
+
+.nav ul {
+  display: flex;
+  gap: 30px;
+}
+
+.nav a {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.nav a:hover {
+  color: var(--primary-color);
+}
+
+/* HERO */
+
+.bg-hero {
+  background-color: var(--primary-color);
+  background-image: url("/assets/images/bg-hero.png");
+  background-position: top right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: calc(100dvh - 136px);
+  width: 100%;
+}
+
+.hero {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 30px;
+}
+
+.hero h1 {
+  font-size: 80px;
+  font-weight: 900;
+  max-width: 583px;
+  line-height: 90px;
+  text-transform: uppercase;
+  color: white;
+  font-family: var(--font-display);
+}
+
+.hero p {
+  font-size: 25px;
+  color: white;
+  max-width: 446px;
+  font-weight: 600px;
+}
+
+.hero .phone .img-area {
+  height: 66px;
+  width: 66px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .phone {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.hero .phone .img-area img {
+  width: 40px;
+  height: 40px;
+}
+
+.hero .phone p {
+  font-size: 35px;
+  font-weight: 700;
+  color: white;
+}
+
+.cards-hero {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 26px;
+  margin-top: -100px;
+  margin-bottom: 20px;
+}
+
+.card-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  gap: 20px;
+}
+
+.card-hero img {
+  width: 80px;
+  height: 80px;
+}
+
+.card-hero p {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* CLIENTS */
+.clients {
+  background-color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.clients .container {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.clients h2 {
+  font-size: 70px;
+  text-align: center;
+  font-weight: 400;
+  font-family: var(--font-display);
+}
+
+.clients strong {
+  color: var(--primary-color);
+}
+
+.clients .slide {
+  height: 200px;
+  background-color: red;
+  width: 100%;
+  max-width: 1076px;
+  margin: 0 auto;
+}
+
+.clients .results {
+  max-width: 1076px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.clients .result {
+  height: 93px;
+  background-color: var(--secondary-color);
+  flex: 1;
+  border-radius: 10px;
+  padding: 16px 24px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.clients .result div {
+  background-color: var(--primary-color);
+  font-size: 50px;
+  padding: 0 10px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+}
+
+.clients .result p {
+  font-size: 30px;
+}
