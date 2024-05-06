@@ -16,13 +16,14 @@
   .card-hero p {
     font-size: 25px;
   }
+
+  .clients .results {
+    flex-direction: column;
+    max-width: max-content;
+  }
 }
 
 @media screen and (max-width: 1024px) {
-  .cards-hero {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   .nav a {
     font-size: 20px;
   }
@@ -30,17 +31,31 @@
   .header .logo {
     width: 180px;
   }
+
+  .cards-hero {
+    margin-top: 20px;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media screen and (max-width: 880px) {
   .container {
     padding: 0 40px;
   }
+
+  .clients h2 {
+    font-size: 60px;
+    line-height: 70px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .nav {
     display: none;
+  }
+
+  .hero h1 {
+    font-size: 70px;
   }
 }
 
@@ -71,6 +86,11 @@
     margin-top: 20px;
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .clients h2 {
+    font-size: 50px;
+    line-height: 60px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -95,5 +115,17 @@
   .container {
     padding-left: 20px;
     padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero h1 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .clients h2 {
+    font-size: 40px;
+    line-height: 50px;
   }
 }
