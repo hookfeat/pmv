@@ -1,8 +1,4 @@
 @media screen and (max-width: 1440px) {
-  .info {
-    display: none;
-  }
-
   .bg-hero {
     background-size: cover;
   }
@@ -21,6 +17,11 @@
     flex-direction: column;
     max-width: max-content;
   }
+
+  .my-addresses .infos h2 {
+    font-size: 70px;
+    line-height: 70px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -35,6 +36,11 @@
   .cards-hero {
     margin-top: 20px;
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .my-addresses .container {
+    flex-direction: column;
+    gap: 50px;
   }
 }
 
