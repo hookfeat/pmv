@@ -16,4 +16,7 @@ a {
   color: inherit;
 }
 
-
+input,
+textarea {
+  font-family: "Inter", sans-serif;
+}

@@ -21,6 +21,24 @@
   .my-addresses .infos h2 {
     font-size: 70px;
   }
+
+  .contact .contact-image img {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .contact .container {
+    flex-direction: column-reverse;
+  }
+
+  .contact .contact-form h2 {
+    text-align: center;
+  }
+
+  .contact .contact-image {
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -131,6 +149,14 @@
   .clients h2 {
     font-size: 50px;
     line-height: 60px;
+  }
+
+  .contact .contact-form h2 {
+    font-size: 40px;
+  }
+
+  .contact .contact-form .input-group {
+    flex-direction: column;
   }
 }
 
