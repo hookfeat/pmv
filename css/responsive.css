@@ -2,9 +2,16 @@
   .bg-hero {
     background-size: cover;
   }
+}
 
-  .card-hero p {
-    font-size: 28px;
+@media screen and (max-width: 1366px) {
+  .hero h1 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .cards-hero {
+    margin-top: -2rem;
   }
 }
 
@@ -18,20 +25,6 @@
     max-width: 350px;
   }
 }
-
-/* @media screen and (max-width: 1100px) {
-  .contact .contact-form h2 {
-    text-align: center;
-  }
-
-  .contact .contact-image {
-    display: none;
-  }
-
-  .contact .contact-form form {
-    box-shadow: none;
-  }
-} */
 
 @media screen and (max-width: 1160px) {
   .header .logo {

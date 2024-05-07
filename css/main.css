@@ -285,6 +285,80 @@ body {
   gap: 10px;
 }
 
+/* SERVICES */
+
+.services {
+  background-image: url(/assets/images/bg-services.png);
+  width: 100%;
+  height: 100dvh;
+  background-size: cover;
+  position: relative;
+}
+
+.services::before {
+  content: "";
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  background-color: rgba(0, 0, 0, 0.308);
+}
+
+.services .container {
+  height: inherit;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.services .container h2 {
+  font-weight: 300;
+  text-align: center;
+  font-size: 50px;
+  color: var(--secondary-color);
+}
+
+.services .container h2 span {
+  font-weight: 700;
+  display: inline-block;
+  padding: 2px 4px;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+}
+
+.services .cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.services .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5d7;
+  border-radius: 10px;
+  padding: 15px;
+  gap: 10px;
+  height: 200px;
+}
+
+.services .card img {
+  max-width: 105px;
+  max-height: 105px;
+}
+
+.services .card p {
+  text-align: center;
+  font-weight: 600;
+  font-size: 22px;
+  max-width: 320px;
+}
+
 /* CLIENTS */
 .clients {
   background-color: white;
