@@ -25,7 +25,7 @@ body {
   text-transform: uppercase;
   padding: 20px 38px;
   max-width: fit-content;
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 900;
   border-radius: 10px;
   transition: all ease-in 0.3s;
@@ -60,7 +60,7 @@ body {
 /* HEADER */
 
 .header {
-  height: 136px;
+  height: 100px;
   background-color: white;
 }
 
@@ -72,7 +72,7 @@ body {
 }
 
 .header .logo {
-  width: 250px;
+  width: 200px;
 }
 
 .nav ul {
@@ -81,7 +81,7 @@ body {
 }
 
 .nav a {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
 }
 
@@ -97,7 +97,7 @@ body {
   background-position: top right;
   background-size: contain;
   background-repeat: no-repeat;
-  height: calc(100dvh - 176px);
+  height: calc(100dvh - 140px);
   width: 100%;
 }
 
@@ -110,17 +110,17 @@ body {
 }
 
 .hero h1 {
-  font-size: 80px;
+  font-size: 60px;
+  line-height: normal;
   font-weight: 900;
   max-width: 583px;
-  line-height: 80px;
   text-transform: uppercase;
   color: white;
   font-family: var(--font-display);
 }
 
 .hero p {
-  font-size: 25px;
+  font-size: 23px;
   color: white;
   max-width: 446px;
   font-weight: 600px;
@@ -158,8 +158,8 @@ body {
 .cards-hero {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 36px;
-  margin-top: -2%;
+  gap: 26px;
+  margin-top: -3rem;
   margin-bottom: 20px;
 }
 
@@ -176,13 +176,13 @@ body {
 }
 
 .card-hero img {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
 }
 
 .card-hero p {
   text-align: center;
-  font-size: 32px;
+  font-size: 23px;
   font-weight: 700;
 }
 
@@ -299,9 +299,9 @@ body {
 }
 
 .clients h2 {
-  font-size: 70px;
-  line-height: 80px;
-  max-width: 1076px;
+  font-size: 50px;
+  line-height: normal;
+  max-width: 1000px;
   margin: 0 auto;
   text-align: center;
   font-weight: 400;
@@ -349,11 +349,10 @@ body {
 }
 
 .clients .result {
-  height: 93px;
   background-color: var(--secondary-color);
   flex: 1;
   border-radius: 10px;
-  padding: 16px 24px;
+  padding: 10px;
   display: flex;
   gap: 10px;
   align-items: center;
@@ -361,11 +360,11 @@ body {
 
 .clients .result div {
   background-color: var(--primary-color);
-  font-size: 50px;
+  font-size: 40px;
+  font-weight: 600;
   padding: 0 10px;
   border-radius: 10px;
   color: white;
-  font-weight: 600;
 }
 
 .clients .result p {
@@ -380,14 +379,13 @@ body {
 
 .my-addresses .container {
   display: flex;
-  gap: 80px;
 }
 
 .my-addresses .infos {
   display: flex;
   flex-direction: column;
   flex: 1;
-  gap: 30px;
+  gap: 40px;
 }
 
 .my-addresses .map {
@@ -405,19 +403,21 @@ body {
 }
 
 .my-addresses .infos h2 {
-  font-size: 80px;
+  font-size: 50px;
+  line-height: 50px;
   max-width: 442px;
 }
 
 .my-addresses .addresses {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
 }
 
 .my-addresses .address {
   display: flex;
-  grid-area: 5px;
+  font-size: 18px;
+  gap: 5px;
 }
 
 .my-addresses .address img {
@@ -457,6 +457,7 @@ body {
 .contact .contact-form h2 {
   font-size: 50px;
   font-weight: 400;
+  text-align: center;
 }
 
 .contact .contact-form strong {
@@ -464,7 +465,7 @@ body {
 }
 
 .contact .contact-form form {
-  padding: 30px;
+  padding: 24px 16px;
   border-radius: 10px;
   background-color: var(--bg-form);
   display: flex;
@@ -477,7 +478,7 @@ body {
 .contact .contact-form button {
   width: 100%;
   border: none;
-  padding: 15px;
+  padding: 16px;
   border-radius: 10px;
   font-size: 18px;
 }
