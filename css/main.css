@@ -330,6 +330,7 @@ body {
 }
 
 .services .cards-grid {
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
@@ -359,21 +360,24 @@ body {
   max-width: 320px;
 }
 
-/* SOLUTION */
-
-.solution .photos-container {
-  padding: 0;
+/* DIFFERENTIALS */
+.differentials {
+  padding: 100px;
 }
+
+/* SOLUTION */
 
 .solution .photos-container .photos {
   display: flex;
-  justify-content: flex-start;
-  overflow: hidden;
+  justify-content: start;
+  width: 2260px;
+  max-width: 100%;
+  max-height: 300px;
 }
 
 .solution .photos-container .photos img {
-  max-height: 235px;
-  width: 100%;
+  max-height: 100%;
+  width: 25%;
 }
 
 .solution .container {
