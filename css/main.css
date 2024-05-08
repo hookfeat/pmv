@@ -22,6 +22,10 @@ body {
 .button-cto-1 {
   background-color: white;
   color: var(--primary-color);
+}
+
+.button-cto-2,
+.button-cto-1 {
   text-transform: uppercase;
   padding: 20px 38px;
   max-width: fit-content;
@@ -31,7 +35,16 @@ body {
   transition: all ease-in 0.3s;
 }
 
+.button-cto-2 {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
 .button-cto-1:hover {
+  transform: scale(1.05);
+}
+
+.button-cto-2:hover {
   transform: scale(1.05);
 }
 
@@ -236,7 +249,7 @@ body {
 /* GOAL */
 
 .goal {
-  margin: 50px 0;
+  margin: 100px 0;
 }
 .goal .container {
   display: flex;
@@ -316,7 +329,7 @@ body {
 .services .container h2 {
   font-weight: 300;
   text-align: center;
-  font-size: 50px;
+  font-size: 64px;
   color: var(--secondary-color);
 }
 
@@ -333,7 +346,7 @@ body {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  gap: 40px;
 }
 
 .services .card {
@@ -363,6 +376,84 @@ body {
 /* DIFFERENTIALS */
 .differentials {
   padding: 100px;
+}
+
+.differentials .container {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.differentials .container h2 {
+  font-size: 64px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.differentials .container h2 span {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.differentials .container .cards-container {
+  display: flex;
+  gap: 60px;
+}
+.differentials .container .card {
+  background-color: #f0f0f0;
+  padding: 50px;
+  border-radius: 10px;
+  height: 360px;
+  position: relative;
+}
+
+.differentials .container .card img {
+  width: 60px;
+  position: absolute;
+  right: 10px;
+  top: -30px;
+}
+
+.differentials .container .card h3 {
+  font-size: 30px;
+  max-width: 390px;
+}
+
+.differentials .container .card h3 span {
+  color: var(--primary-color);
+}
+
+.differentials .container .card p {
+  max-width: 384px;
+  font-size: 18px;
+  margin: 30px 0;
+}
+
+.differentials .container .card p span {
+  font-weight: 700;
+}
+
+.differentials .container .buttons-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.buttons-container .button-cto-1 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: none;
+  padding: 10px 30px;
+}
+
+.buttons-container .button-cto-2 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 30px;
 }
 
 /* SOLUTION */
