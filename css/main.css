@@ -359,6 +359,72 @@ body {
   max-width: 320px;
 }
 
+/* SOLUTION */
+
+.solution .photos-container {
+  padding: 0;
+}
+
+.solution .photos-container .photos {
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.solution .photos-container .photos img {
+  max-height: 235px;
+  width: 100%;
+}
+
+.solution .container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bg-solution {
+  background-color: var(--tertiary-color);
+  border-top: 4px solid var(--primary-color);
+}
+
+.solution .right h2 {
+  font-size: 58px;
+  color: var(--secondary-color);
+  font-weight: 300;
+  padding: 15px;
+  border-left: 4px solid var(--primary-color);
+}
+
+.solution .right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.solution .right span {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.solution .left {
+  padding: 70px 52px 70px 28px;
+  background-color: #313131;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.solution .left div {
+  max-width: 450px;
+  display: flex;
+  color: var(--secondary-color);
+  font-size: 18px;
+}
+
 /* CLIENTS */
 .clients {
   background-color: white;
