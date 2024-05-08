@@ -1,5 +1,5 @@
+// Lib Swiper JS
 const swiper = new Swiper(".swiper", {
-  // Optional parameters
   direction: "horizontal",
   loop: true,
   autoplay: {
@@ -30,3 +30,6 @@ const swiper = new Swiper(".swiper", {
     clickable: true,
   },
 })
+
+// Lib AOS (Animate on Scroll)
+AOS.init()

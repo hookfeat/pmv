@@ -28,6 +28,9 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
+    <!-- AOS Animate -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <!-- Styles -->
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/main.css" />
@@ -47,7 +50,7 @@
         <a href="https://www.instagram.com/pmvconsultoria/" target="_blank">
           <img src="/assets/icons/instagram.svg" alt="Ícone do instagram" />
         </a>
-        <a href="">
+        <a href="https://www.facebook.com/pmv.tst?mibextid=LQQJ4d">
           <img src="/assets/icons/facebook.svg" alt="Ícone do facebook" />
         </a>
       </div>
@@ -87,38 +90,46 @@
     <!-- HERO -->
     <div class="bg-hero">
       <main class="container hero">
-        <h1>Soluções Inteligentes</h1>
-        <p>
+        <h1 data-aos="fade-right" data-aos-duration="1000">
+          Soluções Inteligentes
+        </h1>
+        <p data-aos="fade-right" data-aos-duration="1000">
           Explore o potencial da excelência em segurança e saúde no trabalho
         </p>
-        <div class="phone">
+        <div class="phone" data-aos="fade-right" data-aos-duration="1000">
           <div class="img-area">
             <img src="/assets/icons/phone.svg" alt="Ícone de telefone" />
           </div>
           <p>(88) 9.9603-0962</p>
         </div>
-        <a href="#contato" class="button-cto-1 shadow">Fale Conosco</a>
+        <a
+          href="#contato"
+          class="button-cto-1 shadow"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          >Fale Conosco</a
+        >
       </main>
     </div>
 
     <!-- CARD HERO -->
     <div class="container cards-hero">
-      <div class="card-hero shadow">
+      <div class="card-hero shadow" data-aos="fade-up" data-aos-delay="100">
         <img src="/assets/icons/helmet.svg" alt="Ícone de capacete" />
         <p>Segurança do <br />Trabalho</p>
       </div>
-      <div class="card-hero shadow">
+      <div class="card-hero shadow" data-aos="fade-up" data-aos-delay="200">
         <img src="/assets/icons/warning.svg" alt="Ícone de aviso" />
         <p>Gerenciamento <br />de risco</p>
       </div>
-      <div class="card-hero shadow">
+      <div class="card-hero shadow" data-aos="fade-up" data-aos-delay="300">
         <img src="/assets/icons/file.svg" alt="Ícone de arquivo" />
         <p>
           Laudo <br />
           Técnico
         </p>
       </div>
-      <div class="card-hero shadow">
+      <div class="card-hero shadow" data-aos="fade-up" data-aos-delay="400">
         <img
           src="/assets/icons/project.png"
           alt="Ícone de projeto arquitetônico" />
@@ -512,7 +523,9 @@
                 src="/assets/icons/instagram-2.svg"
                 alt="Ícone do instagram" />
             </a>
-            <a href="" target="_blank">
+            <a
+              href="https://www.facebook.com/pmv.tst?mibextid=LQQJ4d"
+              target="_blank">
               <img
                 src="/assets/icons/facebook-2.svg"
                 alt="Ícone do facebook.svg" />
@@ -524,6 +537,7 @@
       <div class="developer-by">Desenvolvido por <a href="#">lowtab.</a></div>
     </footer>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="scripts/index.js"></script>
   </body>
