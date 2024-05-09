@@ -80,6 +80,14 @@
     display: none;
   }
 
+  .nav-mobile {
+    display: flex;
+  }
+
+  .menu-mobile {
+    display: flex;
+  }
+
   .my-addresses .addresses {
     flex-direction: column;
     align-items: center;

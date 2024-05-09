@@ -103,6 +103,55 @@ body {
   color: var(--primary-color);
 }
 
+/* NAVBAR MOBILE */
+
+.nav-mobile {
+  width: 35px;
+  height: 35px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav-mobile .bar {
+  width: 100%;
+  height: 5px;
+  background-color: var(--tertiary-color);
+  border-radius: 2px;
+}
+
+.menu-mobile {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100dvh;
+  inset: 0;
+  background-color: var(--bg-form);
+  z-index: 100;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-mobile.close {
+  display: none;
+}
+
+.menu-mobile button {
+  font-size: 30px;
+  font-weight: 600;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.menu-mobile ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
 /* HERO */
 
 .bg-hero {
@@ -425,7 +474,7 @@ body {
 }
 
 .differentials .container .card p {
-  max-width: 384px;
+  width: 500px;
   font-size: 18px;
   margin: 30px 0;
 }
