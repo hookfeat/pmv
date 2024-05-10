@@ -63,5 +63,6 @@ if (isset($_POST["send"])) {
     echo "Ocorreu um erro, {mail->ErrorInfo}";
   }
 } else {
-  echo "Acesso não foi via formulário";
+  header("Location: index.html");
+  exit();
 }
