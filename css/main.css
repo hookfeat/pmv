@@ -7,6 +7,20 @@
   --bg-form: #e9e8e8;
 }
 
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
 html,
 body {
   font-family: "Inter", sans-serif;
@@ -56,6 +70,26 @@ body {
 /* SOCIAL BAR */
 .social-bar {
   background-color: var(--primary-color);
+}
+
+.button-whatsapp {
+  background-color: var(--primary-color);
+  width: 60px;
+  height: 60px;
+  animation: pulse 1s ease-in-out infinite;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.button-whatsapp svg {
+  width: 45px;
+  height: 45px;
+  color: var(--secondary-color);
 }
 
 .social-bar .container {
