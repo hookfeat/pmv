@@ -9,7 +9,7 @@ use PHPMailer\PHPMailer\Exception;
 require 'vendor/autoload.php';
 
 // Env
-$parsed = parse_ini_file("./environment.init", true);
+$parsed = parse_ini_file("./env.init", true);
 
 $host = $_ENV["SMTP_HOST"] = $parsed["SMTP_HOST"];
 $port = $_ENV["SMTP_PORT"] = $parsed["SMTP_PORT"];
