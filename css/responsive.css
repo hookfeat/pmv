@@ -101,33 +101,38 @@
     max-height: 400px;
   }
 
-  .about .about-text {
-    font-size: 16px;
-  }
+    .about .left img {
+      max-height: 400px;
+    }
 
-  .about h1 {
-    font-size: 48px;
-  }
+    .about .about-text {
+      font-size: 16px;
+    }
 
-  .text-container {
-    font-size: 18px;
-  }
+    .about h1 {
+      font-size: 48px;
+    }
 
-  .goal .up div img {
-    width: 70px;
-    height: 70px;
-  }
+    .text-container {
+      font-size: 18px;
+    }
 
-  .goal .up div {
-    font-size: 25px;
-  }
+    .goal .up div img {
+      width: 70px;
+      height: 70px;
+    }
 
-  .right-esocial img {
-    max-height: 280px;
-  }
+    .goal .up div {
+      font-size: 25px;
+    }
 
-  .goal .down div {
-    font-size: 18px;
+    .right-esocial img {
+      max-height: 280px;
+    }
+
+    .goal .down div {
+      font-size: 18px;
+    }
   }
 
   .services .card {
@@ -537,6 +542,18 @@
 
   .right-esocial img {
     max-height: 350px;
+  }
+
+  .solution .photos-container .photos {
+    flex-direction: column;
+    width: 100%;
+    max-width: none;
+    max-height: none;
+  }
+
+  .solution .photos-container .photos img {
+    max-width: 100%;
+    width: 100%;
   }
 }
 
