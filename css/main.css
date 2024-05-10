@@ -810,9 +810,7 @@ body {
   align-items: center;
 }
 
-.footer .logo,
-.footer .infos,
-.footer .social {
+.footer .infos {
   flex: 1;
 }
 

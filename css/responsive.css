@@ -28,6 +28,19 @@
   .contact .contact-image img {
     max-width: 350px;
   }
+
+  .footer .logo img {
+    max-width: 200px;
+  }
+
+  .footer .social img {
+    width: 42px;
+    height: 42px;
+  }
+
+  .footer strong {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 1160px) {
@@ -72,6 +85,35 @@
 
   .contact .contact-image {
     display: none;
+  }
+
+  .footer .container {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+
+  .footer strong {
+    text-align: center;
+  }
+
+  .footer .social {
+    align-items: center;
+  }
+
+  .footer .social-container {
+    padding: 0;
+    padding-top: 10px;
+  }
+
+  .footer .logo img {
+    max-width: 150px;
+  }
+
+  .footer p {
+    font-size: 14px;
+    padding: 0 30px;
   }
 }
 
