@@ -29,29 +29,29 @@ const swiper = new Swiper(".swiper", {
     el: ".swiper-pagination",
     clickable: true,
   },
-});
+})
 
 // Lib AOS (Animate on Scroll)
-AOS.init();
+AOS.init()
 
 //Menu mobile
-const button = document.querySelector(".btn-mobile");
-const menu = document.querySelector(".menu-mobile");
+const button = document.querySelector(".btn-mobile")
+const menu = document.querySelector(".menu-mobile")
 
 const closeMenu = () => {
-  menu.classList.add("close");
-};
+  menu.classList.add("close")
+}
 
 const openMenu = () => {
-  menu.classList.remove("close");
-};
+  menu.classList.remove("close")
+}
 
 button.addEventListener("click", () => {
-  closeMenu();
-});
+  closeMenu()
+})
 
-const mobilesLinks = document.querySelectorAll(".menu-mobile ul li a");
-console.log(mobilesLinks);
+const mobilesLinks = document.querySelectorAll(".menu-mobile ul li a")
+console.log(mobilesLinks)
 mobilesLinks.forEach((menuItem) =>
   menuItem.addEventListener("click", () => closeMenu())
-);
+)

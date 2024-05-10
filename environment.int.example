@@ -1,0 +1,5 @@
+SMTP_HOST=host
+SMTP_USERNAME=username
+SMTP_PASSWORD=password
+SMTP_PORT=8080
+MAIN_HOST=http://localhost/pmv

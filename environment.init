@@ -1,0 +1,6 @@
+SMTP_HOST=smtp.hostinger.com
+SMTP_USERNAME=contato@pmvsegurancadotrabalho.com
+SMTP_PASSWORD=Paulomateus@1
+SMTP_PORT=465
+MAIN_HOST=http://localhost/pmv
+
