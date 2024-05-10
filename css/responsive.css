@@ -17,6 +17,39 @@
   .cards-hero {
     margin-top: -2rem;
   }
+
+  .about .left img {
+    max-height: 450px;
+  }
+
+  .about .about-text {
+    font-size: 18px;
+  }
+
+  .about h1 {
+    font-size: 54px;
+  }
+
+  .text-container {
+    font-size: 19px;
+  }
+
+  .goal .up div img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .goal .up div {
+    font-size: 30px;
+  }
+
+  .right-esocial img {
+    max-height: 300px;
+  }
+
+  .goal .down div {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 1260px) {
@@ -40,6 +73,38 @@
 
   .footer strong {
     font-size: 20px;
+    
+  .about .left img {
+    max-height: 400px;
+  }
+
+  .about .about-text {
+    font-size: 16px;
+  }
+
+  .about h1 {
+    font-size: 48px;
+  }
+
+  .text-container {
+    font-size: 18px;
+  }
+
+  .goal .up div img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .goal .up div {
+    font-size: 25px;
+  }
+
+  .right-esocial img {
+    max-height: 280px;
+  }
+
+  .goal .down div {
+    font-size: 18px;
   }
 }
 
@@ -66,6 +131,113 @@
   .my-addresses .infos h2 {
     max-width: none;
     text-align: center;
+  }
+
+  .about .left img {
+    max-height: 320px;
+  }
+
+  .about .about-text {
+    font-size: 15px;
+  }
+
+  .about h1 {
+    font-size: 40px;
+    max-width: 672px;
+  }
+
+  .text-container {
+    font-size: 15px;
+    max-width: 520px;
+  }
+
+  .goal .up div img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .goal .up div {
+    font-size: 22px;
+  }
+
+  .right-esocial img {
+    max-height: 250px;
+  }
+
+  .goal .down div {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .about .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .about .left img {
+    max-height: 500px;
+  }
+
+  .about .about-text {
+    font-size: 18px;
+  }
+
+  .about h1 {
+    font-size: 50px;
+    max-width: 700px;
+  }
+
+  .text-container {
+    font-size: 18px;
+    max-width: 800px;
+  }
+
+  .goal .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .goal .up div {
+    font-size: 28px;
+  }
+
+  .down div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .right-esocial {
+    order: 2;
+  }
+
+  .goal .up div img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .goal .down div {
+    font-size: 20px;
+    max-width: 780px;
+  }
+
+  .right-esocial img {
+    max-height: 350px;
   }
 }
 
@@ -146,6 +318,34 @@
   .my-addresses .address img {
     display: none;
   }
+
+  .about .left img {
+    max-height: 500px;
+  }
+
+  .about .about-text {
+    font-size: 18px;
+  }
+
+  .about h1 {
+    font-size: 45px;
+    max-width: 700px;
+  }
+
+  .text-container {
+    font-size: 16px;
+    max-width: 800px;
+    padding: 10px;
+  }
+
+  .goal .down div {
+    font-size: 18px;
+    max-width: 780px;
+  }
+
+  .goal .up div {
+    margin-bottom: 20px;
+  }
 }
 
 @media screen and (max-width: 668px) {
@@ -192,6 +392,14 @@
   .contact .contact-form form {
     box-shadow: none;
   }
+
+  .right-esocial img {
+    max-height: 300px;
+  }
+
+  .down div img {
+    max-height: 30px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -217,6 +425,36 @@
     padding-left: 20px;
     padding-right: 20px;
   }
+
+  .about .left img {
+    max-height: 450px;
+  }
+
+  .about h1 {
+    font-size: 38px;
+    max-width: 700px;
+  }
+
+  .goal .up div {
+    font-size: 22px;
+  }
+  .goal .up {
+    gap: 20px;
+  }
+
+  .goal .up div img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .goal .down div {
+    font-size: 18px;
+    max-width: 780px;
+  }
+
+  .right-esocial img {
+    max-height: 350px;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -233,6 +471,40 @@
   .clients .result p {
     font-size: 24px;
   }
+
+  .about h1 {
+    font-size: 30px;
+    max-width: 700px;
+  }
+
+  .about .left img {
+    max-height: 350px;
+  }
+  .about .about-text {
+    font-size: 16px;
+  }
+
+  .goal .up div {
+    font-size: 20px;
+  }
+
+  .goal .up {
+    gap: 20px;
+  }
+
+  .goal .up div img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .goal .down div {
+    font-size: 16px;
+    max-width: 780px;
+  }
+
+  .right-esocial img {
+    max-height: 250px;
+  }
 }
 
 @media screen and (max-width: 478px) {
@@ -242,5 +514,58 @@
 
   .hero .phone .img-area {
     display: none;
+  }
+
+  .about h1 {
+    font-size: 28px;
+    max-width: 350px;
+  }
+
+  .about .left img {
+    max-height: 350px;
+  }
+  .about .about-text {
+    font-size: 16px;
+  }
+
+  .text-container {
+    font-size: 15px;
+    max-width: 800px;
+  }
+
+  .goal .up {
+    gap: 20px;
+  }
+
+  .goal .up div {
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .goal .up div img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .goal .down div {
+    font-size: 15px;
+    max-width: 780px;
+  }
+
+  .right-esocial img {
+    max-height: 200px;
+  }
+}
+
+@media screen and (max-width: 378px) {
+  .about .left img {
+    max-height: 300px;
+  }
+  .text-container {
+    font-size: 14px;
+  }
+  .about h1 {
+    font-size: 25px;
   }
 }
