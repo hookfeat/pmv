@@ -50,6 +50,28 @@
   .goal .down div {
     font-size: 20px;
   }
+
+  .services .cards-grid {
+    gap: 50px;
+  }
+
+  .services .card {
+    height: 180px;
+  }
+
+  .services .card img {
+    max-width: 60px;
+    max-height: 60px;
+  }
+
+  .services .card p {
+    font-size: 18px;
+    max-width: 250px;
+  }
+
+  .services .container h2 {
+    font-size: 50px;
+  }
 }
 
 @media screen and (max-width: 1260px) {
@@ -73,7 +95,8 @@
 
   .footer strong {
     font-size: 20px;
-    
+  }
+
   .about .left img {
     max-height: 400px;
   }
@@ -105,6 +128,24 @@
 
   .goal .down div {
     font-size: 18px;
+  }
+
+  .services .card {
+    height: 150px;
+  }
+
+  .services .card img {
+    max-width: 50px;
+    max-height: 50px;
+  }
+
+  .services .card p {
+    font-size: 16px;
+    max-width: 250px;
+  }
+
+  .services .container h2 {
+    font-size: 50px;
   }
 }
 
@@ -239,6 +280,30 @@
   .right-esocial img {
     max-height: 350px;
   }
+
+  .services .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .services {
+    height: 100%;
+  }
+
+  .services .card {
+    height: 160px;
+  }
+
+  .services .card p {
+    font-size: 17px;
+    max-width: 250px;
+  }
+
+  .services .container {
+    padding: 30px 30px;
+    gap: 30px;
+  }
 }
 
 @media screen and (max-width: 880px) {
@@ -345,6 +410,24 @@
 
   .goal .up div {
     margin-bottom: 20px;
+  }
+
+  .services .card img {
+    max-width: 45px;
+    max-height: 45px;
+  }
+
+  .services .card p {
+    font-size: 14px;
+    max-width: 250px;
+  }
+
+  .services .container h2 {
+    font-size: 45px;
+  }
+
+  .services .card {
+    height: 130px;
   }
 }
 
@@ -505,6 +588,29 @@
   .right-esocial img {
     max-height: 250px;
   }
+
+  .services .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+  }
+
+  .services .card {
+    height: 150px;
+  }
+  .services .card img {
+    max-width: 45px;
+    max-height: 45px;
+  }
+
+  .services .card p {
+    font-size: 16px;
+    max-width: 200px;
+  }
+
+  .services .container h2 {
+    font-size: 40px;
+  }
 }
 
 @media screen and (max-width: 478px) {
@@ -555,6 +661,10 @@
 
   .right-esocial img {
     max-height: 200px;
+  }
+
+  .services .container h2 {
+    font-size: 35px;
   }
 }
 
