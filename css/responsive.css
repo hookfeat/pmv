@@ -115,6 +115,10 @@
     font-size: 14px;
     padding: 0 30px;
   }
+
+  .developer-by {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 768px) {

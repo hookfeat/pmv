@@ -835,7 +835,7 @@ body {
 
 .footer .social-container {
   display: flex;
-  padding: 10px;
+  padding: 10px 0;
   gap: 20px;
 }
 
@@ -852,9 +852,14 @@ body {
 
 .developer-by {
   position: absolute;
-  bottom: 8px;
-  right: 8px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 8px;
   font-size: 12px;
+  color: #777;
+  width: 100%;
+  text-align: end;
 }
 
 .developer-by a:hover {
