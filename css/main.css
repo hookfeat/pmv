@@ -642,6 +642,37 @@ body {
 .swiper {
   width: inherit;
   height: inherit;
+  position: relative;
+}
+
+.swiper::before {
+  content: "";
+  position: absolute;
+  z-index: 10;
+  bottom: 0px;
+  left: 0px;
+  width: 56px;
+  height: inherit;
+  background: linear-gradient(
+    90deg,
+    rgba(252, 245, 245, 0.916) 0%,
+    rgba(209, 209, 209, 0.089) 100%
+  );
+}
+
+.swiper::after {
+  content: "";
+  position: absolute;
+  z-index: 10;
+  bottom: 0px;
+  right: 0px;
+  width: 56px;
+  height: inherit;
+  background: linear-gradient(
+    270deg,
+    rgba(252, 245, 245, 0.916) 0%,
+    rgba(209, 209, 209, 0.089) 100%
+  );
 }
 
 .swiper-slide {

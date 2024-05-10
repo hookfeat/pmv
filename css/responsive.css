@@ -101,38 +101,37 @@
     max-height: 400px;
   }
 
-    .about .left img {
-      max-height: 400px;
-    }
+  .about .left img {
+    max-height: 400px;
+  }
 
-    .about .about-text {
-      font-size: 16px;
-    }
+  .about .about-text {
+    font-size: 16px;
+  }
 
-    .about h1 {
-      font-size: 48px;
-    }
+  .about h1 {
+    font-size: 48px;
+  }
 
-    .text-container {
-      font-size: 18px;
-    }
+  .text-container {
+    font-size: 18px;
+  }
 
-    .goal .up div img {
-      width: 70px;
-      height: 70px;
-    }
+  .goal .up div img {
+    width: 70px;
+    height: 70px;
+  }
 
-    .goal .up div {
-      font-size: 25px;
-    }
+  .goal .up div {
+    font-size: 25px;
+  }
 
-    .right-esocial img {
-      max-height: 280px;
-    }
+  .right-esocial img {
+    max-height: 280px;
+  }
 
-    .goal .down div {
-      font-size: 18px;
-    }
+  .goal .down div {
+    font-size: 18px;
   }
 
   .services .card {
@@ -615,6 +614,7 @@
   .services .card {
     height: 150px;
   }
+
   .services .card img {
     max-width: 45px;
     max-height: 45px;
@@ -682,6 +682,11 @@
 
   .services .container h2 {
     font-size: 35px;
+  }
+
+  .swiper::after,
+  .swiper::before {
+    width: 0;
   }
 }
 
