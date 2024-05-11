@@ -917,6 +917,10 @@
 }
 
 @media screen and (max-width: 478px) {
+  .header .logo {
+    max-width: 150px;
+  }
+
   .hero h1 {
     font-size: 40px;
   }
