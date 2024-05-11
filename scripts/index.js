@@ -35,23 +35,25 @@ const swiper = new Swiper(".swiper", {
 AOS.init()
 
 //Menu mobile
-const button = document.querySelector(".btn-mobile")
+// - Elements
+const closeMenuButton = document.querySelector(".btn-mobile-close")
+const openMenuButton = document.querySelector(".btn-mobile-open")
+const mobilesLinks = document.querySelectorAll(".menu-mobile ul li a")
 const menu = document.querySelector(".menu-mobile")
 
-const closeMenu = () => {
-  menu.classList.add("close")
-}
+// - Functions
+const closeMenu = () => menu.classList.add("close")
+const openMenu = () => menu.classList.remove("close")
 
-const openMenu = () => {
-  menu.classList.remove("close")
-}
-
-button.addEventListener("click", () => {
+// - Events
+closeMenuButton.addEventListener("click", () => {
   closeMenu()
 })
 
-const mobilesLinks = document.querySelectorAll(".menu-mobile ul li a")
-console.log(mobilesLinks)
+openMenuButton.addEventListener("click", () => {
+  openMenu()
+})
+
 mobilesLinks.forEach((menuItem) =>
   menuItem.addEventListener("click", () => closeMenu())
 )

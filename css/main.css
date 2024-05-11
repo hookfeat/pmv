@@ -140,7 +140,7 @@ body {
 
 /* NAVBAR MOBILE */
 
-.nav-mobile {
+.btn-mobile-open {
   width: 35px;
   height: 35px;
   display: none;
@@ -148,14 +148,14 @@ body {
   justify-content: space-between;
 }
 
-.nav-mobile .bar {
+.btn-mobile-open .bar {
   width: 100%;
   height: 5px;
   background-color: var(--tertiary-color);
   border-radius: 2px;
 }
 
-.nav-mobile .bar-green {
+.btn-mobile-open .bar-green {
   width: 100%;
   height: 5px;
   background-color: var(--primary-color);
@@ -178,12 +178,14 @@ body {
   display: none;
 }
 
-.menu-mobile button {
-  font-size: 30px;
-  font-weight: 600;
+.menu-mobile .btn-mobile-close {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 65px;
+  right: 35px;
+}
+
+.menu-mobile .btn-mobile-close img {
+  width: 50px;
 }
 
 .menu-mobile ul {
@@ -214,7 +216,7 @@ body {
   background-position: top right;
   background-size: contain;
   background-repeat: no-repeat;
-  height: calc(100vh - 140px);
+  height: calc(100dvh - 140px);
   width: 100%;
 }
 
