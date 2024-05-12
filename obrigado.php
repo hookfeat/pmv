@@ -1,9 +1,9 @@
-<!-- <?php
-// if (!isset($_POST["send"])) {
-//   header("Location: index.html");
-//   exit();
-// }
-?> -->
+<?php
+if (!isset($_POST["send"])) {
+  header("Location: index.html");
+  exit();
+}
+?>
 
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -32,8 +32,24 @@
   <title>PMV | Obrigado!</title>
 </head>
 
-<body>
-  <h1>Obrigado!</h1>
+<body class="gratitude-body">
+  <main class="gratitude-main container">
+    <section class="info">
+      <h1>
+        Recebemos sua
+        <span>mensagem</span>
+      </h1>
+      <p>Agora é só aguardar que, em breve, entraremos em contato com você</p>
+      <a href="./index.html" class="shadow">Voltar</a>
+    </section>
+    <section class="img">
+      <img src="./assets/icons/mail-clock.svg" alt="Ícone de E-mail com relógio" />
+    </section>
+  </main>
+
+  <footer class="gratitude-footer">
+    <p>A <strong>PMV</strong> agradece o seu contato.</p>
+  </footer>
 </body>
 
 </html>

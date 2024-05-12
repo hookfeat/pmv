@@ -58,7 +58,7 @@ if (isset($_POST["send"])) {
 
     $mail->Body = $body;
     $mail->send();
-    header("Location: $mainHost/obrigado.html");
+    header("Location: $mainHost/obrigado.php");
   } catch (Exception $e) {
     echo "Ocorreu um erro, {mail->ErrorInfo}";
   }
