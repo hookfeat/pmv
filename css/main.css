@@ -35,6 +35,18 @@ body {
   padding: 0 80px;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
 .button-cto-1 {
   background-color: white;
   color: var(--primary-color);
@@ -880,12 +892,16 @@ body {
   background-color: var(--tertiary-color);
   color: var(--light-gray);
   position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .footer .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 .footer .infos {
@@ -899,12 +915,13 @@ body {
 .footer .infos {
   text-align: center;
   font-size: 18px;
+  line-height: 26px;
 }
 
 .footer .social {
   display: flex;
   flex-direction: column;
-  align-items: end;
+  align-items: center;
 }
 
 .footer strong {
@@ -929,15 +946,13 @@ body {
 }
 
 .developer-by {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  margin-top: 20px;
   padding: 8px;
-  font-size: 12px;
-  color: #777;
+  font-size: 16px;
+  font-weight: 600;
+  color: #555;
   width: 100%;
-  text-align: end;
+  text-align: center;
 }
 
 .developer-by a:hover {

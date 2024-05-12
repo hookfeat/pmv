@@ -269,33 +269,33 @@
       <div class="container">
         <h2>Nossos <span>Serviços</span></h2>
         <div class="cards-grid">
-          <div class="card">
+          <div class="card" data-aos="fade-up" data-aos-duration="1000">
             <img src="./assets/icons/hydrant.svg" alt="Ícone de hidrante" />
             <p>Instalação e manutenção de hidrante</p>
           </div>
-          <div class="card">
+          <div class="card" data-aos="fade-up" data-aos-duration="1000">
             <img src="./assets/icons/project.png" alt="Ícone de projeto" />
             <p>Projeto de combate a incêndio</p>
           </div>
-          <div class="card">
+          <div class="card" data-aos="fade-up" data-aos-duration="1000">
             <img src="./assets/icons/esocial.png" alt="Ícone do eSocial" />
             <p>
               eSocial e<br />
               eventos SST
             </p>
           </div>
-          <div class="card">
+          <div class="card" data-aos="fade-up" data-aos-duration="1000">
             <img src="./assets/icons/warning.svg" alt="Ícone de aviso" />
             <p>
               Programa de gestão <br />
               de riscos
             </p>
           </div>
-          <div class="card">
+          <div class="card" data-aos="fade-up" data-aos-duration="1000">
             <img src="./assets/icons/file.svg" alt="Ícone de arquivo" />
             <p>Laudo técnico das condições do trabalho</p>
           </div>
-          <div class="card">
+          <div class="card" data-aos="fade-up" data-aos-duration="1000">
             <img src="./assets/icons/health.svg" alt="Ícone de saúde" />
             <p>Programa de controle médico ocupacional</p>
           </div>
@@ -308,7 +308,11 @@
       <div class="container">
         <h2>Diferenciais da <span>PMV</span></h2>
         <div class="cards-container">
-          <div class="card shadow">
+          <div
+            class="card shadow"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
             <img
               src="./assets/icons/square-check.svg"
               alt="Ícone de checagem"
@@ -323,7 +327,11 @@
               equipe."
             </em>
           </div>
-          <div class="card shadow">
+          <div
+            class="card shadow"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
             <img
               src="./assets/icons/square-check.svg"
               alt="Ícone de checagem"
@@ -398,7 +406,7 @@
               >Fale Conosco</a
             >
           </div>
-          <div class="left shadow">
+          <div class="left shadow" data-aos="fade-up" data-aos-duration="1000">
             <div>
               <img src="./assets/icons/arrow.svg" alt="Ícone de seta" />
               <p>
@@ -491,11 +499,19 @@
           </div>
         </div>
         <div class="results">
-          <div class="result shadow">
+          <div
+            class="result shadow"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
             <div>+240</div>
             <p>Projetos de incêndio</p>
           </div>
-          <div class="result shadow">
+          <div
+            class="result shadow"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
             <div>+2200</div>
             <p>Laudos técnicos</p>
           </div>
@@ -559,27 +575,35 @@
         <div class="contact-form">
           <h2>Entre em <strong>Contato</strong></h2>
           <form action="send-mail.php" method="post" class="shadow">
+            <label for="name" class="sr-only">Nome</label>
             <input
+              id="name"
               type="text"
               name="name"
               placeholder="Informe seu nome"
               required
             />
             <div class="input-group">
+              <label for="email" class="sr-only">Email</label>
               <input
+                id="email"
                 type="email"
                 name="email"
                 placeholder="Informe seu e-mail"
                 required
               />
+              <label for="phone" class="sr-only">Telefone</label>
               <input
+                id="phone"
                 type="text"
                 name="phone"
                 placeholder="Informe seu telefone"
                 required
               />
             </div>
+            <label for="message" class="sr-only">Mensagem</label>
             <textarea
+              id="message"
               name="message"
               placeholder="Informe detalhes sobre o projeto"
               required
@@ -598,14 +622,17 @@
           </a>
         </div>
         <div class="infos">
-          Rua Expedito Farias, 695,Centro<br />
+          Rua Expedito Farias, 695, Centro<br />
           Acaraú-CE, CEP: 62580000 <br />
           CNPJ: 45.174.647/0001-78
         </div>
         <div class="social">
           <strong>Nossas redes sociais</strong>
           <div class="social-container">
-            <a href="" target="_blank">
+            <a
+              href="https://wa.me/send?phone=5588996030962&text=Ol%C3%A1,%20quero%20fazer%20um%20or%C3%A7amento."
+              target="_blank"
+            >
               <img src="./assets/icons/whatsapp.svg" alt="Ícone do whatsapp" />
             </a>
             <a href="https://www.instagram.com/pmvconsultoria/" target="_blank">
@@ -627,9 +654,7 @@
         </div>
       </div>
       <p>©️ Todos os direitos reservados a PMV - Segurança do Trabalho</p>
-      <div class="developer-by">
-        Desenvolvido por <a href="#">🪝 hookfeat.</a>
-      </div>
+      <div class="developer-by">Desenvolvido por <a href="#">hookfeat.</a></div>
     </footer>
 
     <!-- WHATSAPP BUTTON -->
