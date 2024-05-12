@@ -23,6 +23,7 @@
 
 html,
 body {
+  min-height: 100dvh;
   font-family: "Inter", sans-serif;
   background-color: var(--secondary-color);
   color: var(--tertiary-color);
@@ -214,7 +215,7 @@ body {
   background-color: var(--primary-color);
   background-image: url("../assets/images/bg-hero.png");
   background-position: top right;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   height: calc(100dvh - 140px);
   width: 100%;
@@ -941,5 +942,77 @@ body {
 
 .developer-by a:hover {
   text-decoration: underline;
+  color: var(--primary-color);
+}
+
+/* GRATITUDE */
+
+.gratitude-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.gratitude-main {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.gratitude-main .info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.gratitude-main .info h1 {
+  font-size: 80px;
+  line-height: 80px;
+  max-width: 600px;
+}
+.gratitude-main .info span {
+  color: var(--primary-color);
+}
+
+.gratitude-main .info p {
+  max-width: 550px;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.gratitude-main a {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-size: 22px;
+  border-radius: 10px;
+  max-width: fit-content;
+  font-weight: 600;
+}
+.gratitude-main a:hover {
+  transform: scale(1.1);
+}
+
+.gratitude-main .img {
+  width: 100%;
+  max-width: 440px;
+}
+
+.gratitude-main .img img {
+  max-width: 100%;
+}
+
+.gratitude-footer {
+  padding: 20px;
+  padding-bottom: 100px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.gratitude-footer strong {
   color: var(--primary-color);
 }
