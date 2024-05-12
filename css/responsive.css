@@ -301,7 +301,8 @@
   .solution .right {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    width: 100%;
   }
 
   .solution .container {
@@ -317,7 +318,7 @@
   }
 
   .solution .left div {
-    max-width: 700px;
+    max-width: 100%;
     display: flex;
     color: var(--secondary-color);
     font-size: 18px;
