@@ -499,6 +499,7 @@
 
   .bg-hero {
     background-image: url("../assets/images/bg-hero-mobile.png");
+    height: 800px;
   }
 
   .clients .results {
