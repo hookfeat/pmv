@@ -227,7 +227,7 @@ body {
   background-color: var(--primary-color);
   background-image: url("../assets/images/bg-hero.png");
   background-position: top right;
-  background-size: cover;
+  /* background-size: cover; */
   background-repeat: no-repeat;
   /* height: calc(100dvh - 140px); */
   height: 700px;
@@ -425,7 +425,8 @@ body {
   width: 100%;
   height: 100vh;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
+  background-repeat: no-repeat;
   position: relative;
 }
 
