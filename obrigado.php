@@ -1,10 +1,3 @@
-<?php
-if (!isset($_POST["send"])) {
-  header("Location: index.html");
-  exit();
-}
-?>
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -40,7 +33,7 @@ if (!isset($_POST["send"])) {
         <span>mensagem</span>
       </h1>
       <p>Agora é só aguardar que, em breve, entraremos em contato com você</p>
-      <a href="./index.html" class="shadow">Voltar</a>
+      <a href="./" class="shadow">Voltar</a>
     </section>
     <section class="img">
       <img src="./assets/icons/mail-clock.svg" alt="Ícone de E-mail com relógio" />
