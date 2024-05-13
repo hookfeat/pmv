@@ -229,7 +229,8 @@ body {
   background-position: top right;
   background-size: cover;
   background-repeat: no-repeat;
-  height: calc(100dvh - 140px);
+  /* height: calc(100dvh - 140px); */
+  height: 700px;
   width: 100%;
 }
 
