@@ -679,10 +679,6 @@
     height: 100px;
   }
 
-  .bg-hero {
-    height: calc(100dvh - 100px);
-  }
-
   .phone {
     justify-content: center;
   }
@@ -731,6 +727,10 @@
 }
 
 @media screen and (max-width: 600px) {
+  .bg-hero {
+    height: 600px;
+  }
+
   .hero h1 {
     font-size: 60px;
     line-height: 60px;
