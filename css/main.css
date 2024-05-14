@@ -236,13 +236,24 @@ body {
 
 .bg-hero {
   background-color: var(--primary-color);
+  background-image: url("../assets/images/bg-hero.png");
+  background-position: top right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 100%; 
+}
+
+/* .bg-hero {
+  background-color: var(--primary-color);
   height: 700px;
   width: 100%;
   position: relative;
   z-index: 0;
-}
+  overflow: hidden;
+} */
 
-.bg-hero-img {
+/* .bg-hero-img {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -250,8 +261,8 @@ body {
   left: 0;
   z-index: -1;
   object-fit: cover;
-  background-color: red;
-}
+  object-position: center;
+} */
 
 .hero {
   height: inherit;
