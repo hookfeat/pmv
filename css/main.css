@@ -223,15 +223,34 @@ body {
 
 /* HERO */
 
+/* .bg-hero { */
+/* background-color: var(--primary-color);
+  background-image: url("../assets/images/bg-hero.png");
+  background-position: top right; */
+/* background-size: cover; */
+/* background-repeat: no-repeat; */
+/* height: calc(100dvh - 140px); */
+/* height: 700px;
+  width: 100%; */
+/* } */
+
 .bg-hero {
   background-color: var(--primary-color);
-  background-image: url("../assets/images/bg-hero.png");
-  background-position: top right;
-  /* background-size: cover; */
-  background-repeat: no-repeat;
-  /* height: calc(100dvh - 140px); */
   height: 700px;
   width: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+.bg-hero-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-fit: cover;
+  background-color: red;
 }
 
 .hero {
